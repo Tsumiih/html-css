@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #857691;
+            text-align: center;
+            margin: 0px;
+        }
+
+        header{
+            background-color: #E69ECC;
+            padding: 5px;
+            margin: 5px;
+
+        }
+
+       nav{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 6px 0px 25px black;
+       }
+
+       nav > a{
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 30px;
+        
+       }
+        
+
+        main{
+            background-color: #E69ECC;
+            padding: 5px;
+            margin: 5px;
+            text-align: justify;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: rgb(165, 159, 194)
+        }
+
+        article > aside{
+            background-color: #ffffff;
+
+
+        }
+
+        footer{
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>esportes</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores saepe perspiciatis nostrum veniam reprehenderit quia distinctio, pariatur quibusdam, adipisci nulla ullam eos alias ipsum, corrupti aut magni. Autem, ducimus dolore.</p>
+            <aside>
+                <p>artigo escrito pela gostosa da sua tia</p>
+            </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, beatae error adipisci inventore excepturi exercitationem aliquid? Labore qui maiores, mollitia exercitationem temporibus, impedit excepturi repellendus doloribus, laboriosam totam fuga pariatur?</p>
+                <aside>
+                    <p>artigo escrito pela cahorra da sua mae hehe</p>
+                </aside>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido pelo seu pai aquele burro</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

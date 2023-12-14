@@ -64,23 +64,24 @@ section{
 
 }
     
+section > p {
+    padding-bottom: 2em;
+}
 
 section.normal{
     background-color: white;
     color: black;
-
 }
 
 section.imagem{
     background-color: rgba(0, 0, 0, 0.432);
     color: white;
+
 }
 
 section.imagem > p{ 
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.26);
-    
-
 }
 
 footer{

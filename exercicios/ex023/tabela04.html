@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafio de tabelas</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid rgb(53, 51, 51);
+            padding: 10px;
+        }
+
+        th{
+            font-weight: bolder;
+        }
+    </style>
 </head>
 <body>
     <h1>exercicios de tabelas</h1>
@@ -12,11 +32,59 @@
             filmes favoritos
         </caption>
         <thead>
+            <tr>
+                <th scope="col">grupos</th>
+                <th scope="col">nomes</th>
+                <th colspan="3" scope="colgroup">filmes</th>
+            </tr>
 
         </thead>
         <tbody>
-
+            <tr>
+                <th rowspan="3" scope="rowgroup">mulheres</th>
+                <td> ana maria santos</td>
+                <td> alien</td>
+                <td> rambo</td>
+                <td> vingadores</td>
+            </tr>
+            <tr>
+                <td>beatriz sousa</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">homens</th>
+                <td>bruno mendonça</td>
+                <td>intocaveis</td>
+                <td>amnesia</td>
+                <td>gladiador</td>
+            </tr>
+            <tr>
+                <td>daniel lourenço</td>
+                <td>wall-e</td>
+                <td>oldboy</td>
+                <td>dangal</td>
+            </tr>
+            <tr>
+                <td>fabiano mota</td>
+                <td>star wars 5</td>
+                <td>taxi driver</td>
+                <td>toy story</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>

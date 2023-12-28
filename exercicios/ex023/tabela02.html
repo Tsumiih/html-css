@@ -11,7 +11,7 @@
         }
 
         table{
-            width: 600px;
+            width: 500px;
             border-collapse: collapse;
         }
 
@@ -22,58 +22,99 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(0, 0, 0);
             color: white;
 
         }
+
+        table > caption{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            color: black;
+            padding: 8px;
+            border: 1px solid black;
+            font-weight: bolder;
+            position: relative;
+        }
+
+        td.num {
+            text-align: right;
+            width: 100px;
+        }
+
+        td.est{
+            text-align: left;
+            width: 100px;
+
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:black ;
+        }
+
     </style>
 </head>
 <body>
     <h1>Uso de Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th>estado</th>
                 <th>população</th>
-
             </tr>
         </thead>
         <tbody>
             <tr> 
-                <td>sao paulo</td>
-                <td>248 219 048</td>
+                <td class="est">sao paulo</td>
+                <td class="num">248 219 048</td>
         </tr>
         <tr>
-                <td>minas gerais</td>
-                <td>586 521,123</td>
+                <td class="est">minas gerais</td>
+                <td class="num">586 521,123</td>
         </tr>
         <tr>
-                <td>rio de janeiro</td>
-                <td>43 750,427</td>
+                <td class="est">rio de janeiro</td>
+                <td class="num">43 750,427</td>
         </tr>
         <tr>
-                <td>bahia</td>
-                <td>14 873 064</td>
+                <td class="est">bahia</td>
+                <td class="num">14 873 064</td>
         </tr>
         <tr>
-                <td>parana</td>
-                <td>11 433 957</td>
+                <td class="est">parana</td>
+                <td class="num">11 433 957</td>
         </tr>
         <tr>
-                <td>rio grande do sul</td>
-                <td> 11 377 239</td>
+                <td class="est">rio grande do sul</td>
+                <td class="num"> 11 377 239</td>
         </tr>
         <tr>
-                <td>pernambuco</td>
-                <td>9 557 071</td>
+                <td class="est">pernambuco</td>
+                <td class="num">9 557 071</td>
         </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>total de habitantes</th>
-                <td>702.334.829</td>
+                <td class="num"><strong>702.334.829</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dicta iste voluptates ipsa rerum hic autem, omnis saepe odit ducimus, laudantium eaque rem officia mollitia eveniet reiciendis quisquam eum? Quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure iste doloremque quam in molestiae nobis commodi soluta. Libero qui natus temporibus laudantium consequatur obcaecati facere doloremque, amet aliquam ipsa dolorum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum hic totam rerum neque adipisci veniam quia, labore iure ea est! Illo ea tempora, quidem harum totam temporibus ipsum error voluptatem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nostrum ea, quasi voluptatum nobis sit minus excepturi, debitis recusandae quaerat mollitia distinctio facere. Aspernatur culpa quaerat consectetur id obcaecati recusandae.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolore soluta, ullam optio unde dolores provident? Recusandae ipsum vel, ullam praesentium saepe maiores iusto laborum cum eius quo deserunt eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio asperiores neque repudiandae ipsum repellat tenetur vero labore mollitia eum, quibusdam error earum ex maiores? Quos odio hic accusantium earum explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure distinctio, voluptas molestiae, tempora dicta assumenda velit neque odio consectetur labore numquam consequatur explicabo voluptatibus rem obcaecati suscipit, sint cum facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem provident, cum architecto error quaerat a animi illo, at, sapiente ut dolorum. Neque quas sequi dolorem quidem, tempora libero deleniti. 
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In unde consectetur inventore quis facilis voluptatem voluptas quibusdam sequi expedita officia. Ipsum quo odit laboriosam ut, excepturi in quas mollitia nesciunt! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae debitis odio dolore cupiditate in natus. Esse, necessitatibus voluptatibus saepe officia reprehenderit blanditiis labore, tenetur doloribus ex ab temporibus ratione fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam sunt iste dolore sint pariatur, nobis assumenda deleniti ad tempora autem, dolorem at sapiente quos. Similique soluta asperiores dolor neque. </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae cupiditate sunt tempore culpa, quasi quisquam cum unde amet nulla harum asperiores, nisi voluptatibus qui quos et. Aliquam delectus eveniet quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore cum enim molestiae laboriosam eligendi, iure repellendus accusantium alias ipsam, illum tenetur quaerat sequi nam deleniti similique dolores! Sunt, voluptatibus laborum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam molestiae, nobis quia, quod optio aliquam voluptates eum at impedit illum quis dolorem. Illo a nisi itaque repellat fugit aliquid ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quisquam nisi non, ducimus cumque minima quaerat distinctio quis explicabo unde cum, fugit quae dicta error repudiandae repellat velit illum!</p>
 </body>
 </html>
